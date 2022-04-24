@@ -10,7 +10,7 @@
 
   header{
     background: mediumspringgreen;
-    height:auto;
+    height:100%;
     display: flex;
     flex-direction: column; 
     
@@ -19,13 +19,16 @@
   nav{
     margin-top: 5vh;
     width: 20vw;
-    height: 100vh; 
+    height: 100vh;
+     
+    
   }
 
   main{
     margin-top: 30vh;
     width: 80vw;
-    height: 100vh;
+    height: 80vh;
+    position: relative;
   }
 
   ul{
@@ -35,38 +38,44 @@
 
   ul.lista_links{
     font-size:15px;
-    text-align: center;
+    
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   }
 
   ul.lista_links li{
-     margin: 100px 100px 5px 100px;
-    text-align:center;   
+     margin: 100px 100px;
+       
   }
 
   a{
     text-decoration: none;
+    
   }
 
-  div.container{
-    height: 20vh;
+  div.container1{ 
     width: 100vw;
+    margin-top: 10px;
   }
 
+  
   img.foto_perfil{ 
     margin: 100px 50px 5px 50px;
     width: 200px;
-    border-radius: 80%;
+    height: 200px;
+    border-radius:50%;
     
   }
 
   ul.icones li{
-    height: 50vh;
+    height: 5vh;
+    width: 10vw;
     display:inline-flex; 
+    margin-top: 20px;
   }
 
   ul.icones li a{
     margin-left: 20px;
+    margin-top: 20px;
   }
 
   .lista_ordenada{
@@ -89,4 +98,13 @@
 
   .margem{
     margin-left: 30px;
+    
   }
+  .margem-icones{
+    height: 20vh;
+    width: 100vw;
+    margin-top: 20px;
+    position: absolute;
+    top: 100px;
+  }
+  
