@@ -1,6 +1,6 @@
-## curriculo
+# curriculo
 
-# Informações passoais e profssionais
+## Informações passoais e profssionais
 
 <p align="center">
 
