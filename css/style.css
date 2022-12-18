@@ -15,7 +15,8 @@ header {
   /* background: linear-gradient(12.158deg, #dc753d 49%, #7ce011 45%) no-repeat fixed; */
   background-image: linear-gradient(
     to bottom right,
-    rgb(44, 144, 183),
+    transparent,
+    rgb(44, 183, 139),
     rgb(207, 97, 24)
   );
   display: flex;
@@ -51,7 +52,9 @@ ul.lista_links li {
 }
 
 ul.lista_links li > a {
-  color: rgba(119, 205, 49, 0.848);
+  color: rgba(29, 28, 28, 0.848);
+  background-image: linear-gradient(rgb(150, 165, 150), transparent, rgb(225, 243, 30));
+  border-radius: 18%
 }
 
 a {
