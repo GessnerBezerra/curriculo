@@ -103,6 +103,10 @@ ul.lista_ordenada li {
   margin-left: 30px;
 }
 
+ul.lista_links li>p{
+  width: 20vw;
+}
+
 .margem {
   margin-left: 30px;
 }
