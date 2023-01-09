@@ -19,7 +19,7 @@ body {
   animation: pan 15s infinite alternate linear;
 }
 
-@media (width: 1certo00px) {
+@media (width: 100px) {
   body{
     padding: 0;
   }
